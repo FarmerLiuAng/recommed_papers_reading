@@ -1,0 +1,9 @@
+1.Human Decision Making and Recommender Systems
+2.ImageNet Classification with Deep Convolutional Neural Networks
+3.Is seeing believing How recommender systems inﬂuence users' opinions.
+4.Cognitive Model Priorsfor Predicting Human Decisions_ICML19
+5.KDD2017Tutorial_Data-DrivenApproachestowardsMalicious BehaviorModeling(1)
+6.Predicting human behavior The next frontiers_Science17
+7.Ten scientific problems in human behavior understanding
+8.Privacy Decision Making: The Brain Approach
+9.Decision-making Styles and Personality Traits A pilot study on the predictive capacity of the TCI regarding the quality of the decision
