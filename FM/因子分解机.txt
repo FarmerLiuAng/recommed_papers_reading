@@ -1,1 +1,19 @@
-Multi-modal matrix factorization with side information for recommending massive open online courses_ESA19
+1.Attentional Factorization MachinesLearning the Weight of Feature Interactions via Attention Networks.pdf
+2.Attentional-Neural-Factorization-Machine-master.zip
+3.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf
+4.Co-Factorization Machines Modeling User Interests and Predicting Individual Decisions in Twitter.pdf
+5.Context-aware Preference Modeling with Factorization.pdf
+6.DeepFM A Factorization-Machine based Neural Network for CTR Prediction.pdf
+7.F2M Scalable Field-Aware Factorization Machine.pdf
+8.FactorizationMachine-master(1).zip
+9.Fast Context-aware Recommendations with Factorization Machines.pdf
+10.Fast Context-aware Recommendationswith Factorization Machines.pdf
+11.Field-weighted Factorization Machines for Click-Through RatePrediction in Display Advertising.pdf
+12.Gaussian Process Factorization Machines forContext-aware Recommendations.pdf
+13.Higher-Order_Factorization_Machines.pdf
+14.Knowledge Fusion via Joint Tensor and Matrix Factorization.pdf
+15.Multi-modal matrix factorization with side information for recommending massive open online courses_ESA19.pdf
+16.Neural Factorization Machines for Sparse Predictive Analytics.pdf
+17.Neural-Factorization-Machine-master.zip
+18.attentional_factorization_machine-master(1).zip
+19.neural_factorization_machine-master(2).zip
