@@ -1,1 +1,15 @@
 1.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019
+2.A Contextual-Bandit Approach toPersonalized News Article Recommendation.pdf
+3.An Attentive Interaction Network for Context-aware Recommendations_CIKM18.pdf
+4.Attention-Based Transactional Context Embedding for Next-Item Recommendation_AAAI_18.pdf
+5.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf
+6.Context-aware Preference Modeling with Factorization.pdf
+7.Context-aware Recommendation System using Content Based Image Retrieval with Dynamic Context Considered.pdf
+8.D-CARS_ A Declarative Context-Aware Recommender System_ICDM18.pdf
+9.Diversifying Personalized Recommendation with User-session Context_IJCAI_2017.pdf
+10.Fast Context-aware Recommendations with Factorization Machines.pdf
+11.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf
+12.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
+13.Hierarchical Context Enabled Recurrent Neural Network for Recommendation_AAAI_19.pdf
+14.Infer Implicit Contexts in Real-time Online-to-Offline Recommendation_KDD191.pdf
+15.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf
