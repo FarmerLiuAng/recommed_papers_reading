@@ -13,3 +13,6 @@
 13.Hierarchical Context Enabled Recurrent Neural Network for Recommendation_AAAI_19.pdf
 14.Infer Implicit Contexts in Real-time Online-to-Offline Recommendation_KDD191.pdf
 15.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf
+16.A Context-Aware User-Item Representation Learning for Item Recommendation_TOIS_2019.pdf
+17.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
+18.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf
