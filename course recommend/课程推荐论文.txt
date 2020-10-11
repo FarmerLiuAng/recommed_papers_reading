@@ -1,1 +1,4 @@
-Hierarchical Reinforcement Learning for Course Recommendation in MOOCs_AAAI19
+ 1.Guess You Like_ Course Recommendation in MOOCs_WI17.pdf
+2.Hierarchical Reinforcement Learning for Course Recommendation in MOOCs_AAAI19.pdf
+3.Multi-modal matrix factorization with side information for recommending massive open online courses_ESA19.pdf
+4.Understanding User Interests Acquisition in Personalized Online Course Recommendation_APWeb18.pdf
