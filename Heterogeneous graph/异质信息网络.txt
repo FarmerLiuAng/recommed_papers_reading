@@ -1,1 +1,12 @@
-1.A Heterogeneous Graph Neural Model for Cold-startRecommendation
+ 1.A Heterogeneous Graph Neural Model for Cold-startRecommendation.pdf
+2.Attentional Graph Convolutional Networks for KnowledgeConcept Recommendation in MOOCs in a Heterogeneous View.pdf
+3.Attentional Graph Convolutional Networks for KnowledgeConcept Recommendation in MOOCs in a Heterogeneous View.zip
+4.Gemini A Novel and Universal Heterogeneous GraphInformation Fusing Framework for Online Recommendations.pdf
+5.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
+6.Heterogeneous Graph Attention Network.pdf
+7.Heterogeneous Graph Neural Network.pdf
+8.Heterogeneous Graph Transformer.pdf
+9.Heterogeneous Network Representation Learning.pdf
+10.Meta-learning on Heterogeneous Information Networks forCold-start Recommendation.pdf
+11.Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation.pdf
+12.Semantic Path based Personalized Recommendation on Weighted Heterogeneous Information Networks.pdf
