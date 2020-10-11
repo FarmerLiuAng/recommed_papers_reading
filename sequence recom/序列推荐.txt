@@ -1,1 +1,6 @@
 1.KDD-Geography-Aware Sequential Location Recommendation
+2. KDD-Geography-Aware Sequential Location Recommendation.pdf
+3.Self-Attentive Sequential Recommendation.pdf
+4.Sequential Recommender System based on Hierarchical Attention Network.pdf
+5.[BERT4Rec][CIKM 19][Alibaba] BERT4Rec_Sequential Recommendation with Bidirectional Encoder Representations from Transformer.pdf
+6.[SDM][CIKM 19][Alibaba] Sequential Deep Matching Model for Online Large-scale Recommender System.pdf
