@@ -1,5 +1,6 @@
-1.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019
-2.A Contextual-Bandit Approach toPersonalized News Article Recommendation.pdf
+1.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019:将因子分解机的特征交互计算成二维矩阵，并将其视为图，再将各
+个特征交互堆叠起来，构成三维的图，使用3D卷积核，进行卷积操作。问题：卷积核的视野有限，而且并不知道捕获到了几阶特征交互。
+2.A Contextual-Bandit Approach to Personalized News Article Recommendation.pdf
 3.An Attentive Interaction Network for Context-aware Recommendations_CIKM18.pdf
 4.Attention-Based Transactional Context Embedding for Next-Item Recommendation_AAAI_18.pdf
 5.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf
