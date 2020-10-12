@@ -1,6 +1,8 @@
-1.Attentional Factorization MachinesLearning the Weight of Feature Interactions via Attention Networks.pdf
-2.Attentional-Neural-Factorization-Machine-master.zip
-3.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf
+FM的几个问题：1.缺少高阶交互建模；2.权重计算方法有限；3.比较适合真是的特征进行交互？对于隐特征效果不好？
+DeepFM问题：1.不知道建模到了几阶特征交互；
+1.Attentional Factorization MachinesLearning the Weight of Feature Interactions via Attention Networks.pdf：因子分解机计算item i和其他item进行交互时的辅助向量均为vi，但是在交互的过程中item所表现出来的特征是不一样的，因此需要使用不同的vi。传统的解决方法时间复杂度大。为了解决这个问题，本文提出将注意力机制应用到FM中，建模特征之间的交互权重。（实际用起来不知道为什么还不如FM，只是理论上好像对劲。。。。）
+2.Attentional-Neural-Factorization-Machine-master.zip（上篇论文的源码）
+3.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf：将因子分解机的特征交互计算成二维矩阵，并将其视为图，再将各个特征交互堆叠起来，构成三维的图，使用3D卷积核，进行卷积操作。问题：卷积核的视野有限，而且并不知道捕获到了几阶特征交互。
 4.Co-Factorization Machines Modeling User Interests and Predicting Individual Decisions in Twitter.pdf
 5.Context-aware Preference Modeling with Factorization.pdf
 6.DeepFM A Factorization-Machine based Neural Network for CTR Prediction.pdf
