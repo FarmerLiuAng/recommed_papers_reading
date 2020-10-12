@@ -1,2 +1,3 @@
-1.Context-aware Recommendation System using Content Based Image Retrieval with Dynamic Context Considered
+1.Context-aware Recommendation System using Content Based Image Retrieval with Dynamic Context Considered：没啥内容
 2.Beyond Personalization Social Content Recommendat
+小菜鸡目前还没弄懂，基于内容的推荐和基于上下文的推荐有什么区别。
