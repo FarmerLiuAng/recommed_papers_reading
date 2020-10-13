@@ -3,12 +3,12 @@
 3.Attentional Graph Convolutional Networks for KnowledgeConcept Recommendation in MOOCs in a Heterogeneous View.pdf
 4.Attentional Graph Convolutional Networks for KnowledgeConcept Recommendation in MOOCs in a Heterogeneous View.zip
 5.Gemini A Novel and Universal Heterogeneous GraphInformation Fusing Framework for Online Recommendations.pdf
-6.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
+6.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf：这个模型的架构有点复杂，作者设计了多层的神经网路来学习用户表征、item表征，最后两个内积进行评分预测。感觉就是网络的堆叠
 7.Heterogeneous Graph Attention Network.pdf：该方法首先获取目标节点在各个元路径下的邻居节点（实际上就是元路径终点节点集合），对邻居节点进行嵌入，再依据元路径，使用多头注意力机制进行聚集，得到基于元路径下的表征，再使用注意力机制聚集基于元路径下的表征，得到节点的最终嵌入表示。邻居节点选择有限，只有一部分节点包含进来。
 8.Heterogeneous Graph Neural Network.pdf：先采用带有重启策略的随机游走算法获取目标节点的邻居，然后邻居节点进行分类，每一类节点分别使用LSTM捕获该类节点之间的信息交互，再使用双边LSTM聚集该类节点，得到该类节点的表征，在使用注意力机制聚集不同类的节点的表征。
 9.Heterogeneous Graph Transformer.pdf
 10.Heterogeneous Network Representation Learning.pdf
 11.Meta-Graph Based Recommendation Fusion overHeterogeneous Information Networks.pdf：这篇文章基于元图进行推荐。基于邻接矩阵，构建节点i和节点j的相似度矩阵。然后将元图从分支处进行元路径拆分，分支处的路径单独计算，然后合并，再将分支当成一条路径进行计算。这种方法计算分支的方法很独特，但是却颠倒了语义关系，存在一定的问题。
 12.Meta-learning on Heterogeneous Information Networks forCold-start Recommendation.pdf
-13.Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation.pdf
+13.Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation.pdf：分别学习基于元路径的目标用户的表征和基于元路径的item的表征，最后内积进行推荐。在计算基于元路径的表征的时候，以目标节点为起点，从内向外有多层邻居，从最外层邻居向内聚集得到目标节点的表征。
 14.Semantic Path based Personalized Recommendation on Weighted Heterogeneous Information Networks.pdf
