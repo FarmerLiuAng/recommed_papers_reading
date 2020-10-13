@@ -1,5 +1,15 @@
 1. KDD-Geography-Aware Sequential Location Recommendation.pdf
-2.Self-Attentive Sequential Recommendation.pdf：将时间引入嵌入，再使用注意力机制进行捕获时序特征之间的交互。实现了序列的长期依赖捕获（RNN等只能获得相邻的节点的特征），注意力机制能识别不同item的作用。
-3.Sequential Recommender System based on Hierarchical Attention Network.pdf:将序列分为短期偏好序列和长期偏好序列。使用注意力机制获取长期偏好序列，再使用注意力机制组合短期偏好序列和长期偏好序列，得到用户特征。（但是需要人为划分短期序列，和长期序列）
-4.[BERT4Rec][CIKM 19][Alibaba] BERT4Rec_Sequential Recommendation with Bidirectional Encoder Representations from Transformer.pdf：BERT4Rec模型中在item嵌入中引入了时序嵌入，使用Transformer Layer来捕获item之间的交互。还进行了掩膜？？这篇文章有点奇怪。
-5.[SDM][CIKM 19][Alibaba] Sequential Deep Matching Model for Online Large-scale Recommender System.pdf：将序列分为短期或者长期。引入了一个门控单元控制短期偏好和长期偏好的权重。长期偏好用注意力捕获，短期偏好用LSTM.
+2.Self-Attentive Sequential Recommendation.pdf：将时间引入嵌入，再使用注意力机制进行捕获时序特征之间的交互。实现了序列的长期依赖捕获
+（RNN等只能获得相邻的节点的特征），注意力机制能识别不同item的作用。
+3.Sequential Recommender System based on Hierarchical Attention Network.pdf:将序列分为短期偏好序列和长期偏好序列。使用注意力机制获
+取长期偏好序列，再使用注意力机制组合短期偏好序列和长期偏好序列，得到用户特征。（但是需要人为划分短期序列，和长期序列）
+4.[BERT4Rec][CIKM 19][Alibaba] BERT4Rec_Sequential Recommendation with Bidirectional Encoder Representations from 
+Transformer.pdf：BERT4Rec模型中在item嵌入中引入了时序嵌入，使用Transformer Layer来捕获item之间的交互。还进行了掩膜？？这篇文章有点奇
+怪。
+5.[SDM][CIKM 19][Alibaba] Sequential Deep Matching Model for Online Large-scale Recommender System.pdf：将序列分为短期或者长期。
+引入了一个门控单元控制短期偏好和长期偏好的权重。长期偏好用注意力捕获，短期偏好用LSTM.
+6.Diversifying Personalized Recommendation with User-session Context_IJCAI_2017.pdf：就是使用注意力机制。
+7.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf：构建图的入度和出度矩阵，进行矩阵
+分解，然后输入到自注意力机制中进行学习。
+8.Session-Based Recommendation with Self-Attention.pdf
+9.[DSIN][IJCAI 19][Alibaba] Deep Session Interest Network for Click-Through Rate Prediction.pdf
