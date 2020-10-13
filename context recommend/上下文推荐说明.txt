@@ -1,19 +1,18 @@
 1.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019:将因子分解机的特征交互计算成二维矩阵，并将其视为图，再将各
 个特征交互堆叠起来，构成三维的图，使用3D卷积核，进行卷积操作。问题：卷积核的视野有限，而且并不知道捕获到了几阶特征交互。
 2.A Contextual-Bandit Approach to Personalized News Article Recommendation.pdf
-3.An Attentive Interaction Network for Context-aware Recommendations_CIKM18.pdf
+3.An Attentive Interaction Network for Context-aware Recommendations_CIKM18.pdf：将用户上下文和user嵌入输入到全连接神经，学习该上下文的用户的隐藏特征，在使用注意力聚集各个上下文的用户隐藏特征，最后得到用户的基于上下文的表征，同样的方法得到item基于上下文的表征，最后进行预测。
 4.Attention-Based Transactional Context Embedding for Next-Item Recommendation_AAAI_18.pdf
-5.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf
+5.CFM Convolutional Factorization Machines for Context-Aware Recommendation_IJCAI_2019.pdf：将因子分解机的特征交互计算成二维矩阵，并将其视为图，再将各个特征交互堆叠起来，构成三维的图，使用3D卷积核，进行卷积操作。问题：卷积核的视野有限，而且并不知道捕获到了几阶特征交互。
 6.Context-aware Preference Modeling with Factorization.pdf
 7.Context-aware Recommendation System using Content Based Image Retrieval with Dynamic Context Considered.pdf
-8.D-CARS_ A Declarative Context-Aware Recommender System_ICDM18.pdf
-9.Diversifying Personalized Recommendation with User-session Context_IJCAI_2017.pdf
-10.Fast Context-aware Recommendations with Factorization Machines.pdf
-11.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf
+8.D-CARS_ A Declarative Context-Aware Recommender System_ICDM18.pdf：这篇文章的主要贡献是将review和context结合起来了。
+9.Diversifying Personalized Recommendation with User-session Context_IJCAI_2017.pdf：就是使用注意力机制。
+10.Fast Context-aware Recommendations with Factorization Machines.pdf：使用因子分解机进行推荐
+11.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf：构建图的入度和出度矩阵，进行矩阵分解，然后输入到自注意力机制中进行学习。
 12.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
-13.Hierarchical Context Enabled Recurrent Neural Network for Recommendation_AAAI_19.pdf
-14.Infer Implicit Contexts in Real-time Online-to-Offline Recommendation_KDD191.pdf
-15.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf
-16.A Context-Aware User-Item Representation Learning for Item Recommendation_TOIS_2019.pdf
-17.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf
-18.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf
+13.Hierarchical Context Enabled Recurrent Neural Network for Recommendation_AAAI_19.pdf：引入了好几种奇奇怪怪的门，看给新鲜就好了
+14.Infer Implicit Contexts in Real-time Online-to-Offline Recommendation_KDD191.pdf：给了口碑基于内容推荐的整个设计框架，也是基于注意力机制，嵌入方法好像比较特殊，设计了掩膜。
+15.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf：设计了一个随机游走策略，应该采用较高的概率到达优先度较高的邻居上（这个策略有点复杂，也有点意思，可以看看）。然后建立基于路径的上下文键入，首先对单个路径实例进行嵌入，再对元路径进行嵌入，再聚集元路径（注意力）。学到表征之后进行预测。
+16.A Context-Aware User-Item Representation Learning for Item Recommendation_TOIS_2019.pdf:给出了基于review建模的思路。
+17.HERS Modeling Influential Contexts with Heterogeneous Relations for Sparse and Cold-Start Recommendation_AAAI_19.pdf：这个模型的架构有点复杂，作者设计了多层的神经网路来学习用户表征、item表征，最后两个内积进行评分预测。感觉就是网络的堆叠
