@@ -1,3 +1,11 @@
+以下三个网站里面包含很多现有推荐系统的实例、推荐算法实现、优秀文章，墙裂推荐大家看一下！！！
+https://awesomeopensource.com/projects/recommendation-system
+https://awesomeopensource.com/projects/recommender-system
+https://www.tuicool.com/articles/raiQJjz
+
+某大佬总结的：推荐系统、计算广告、统计学习模型、技术文章、实践工具、深度学习模型、技术文章、实践代码、经典论文清单，可以过一遍里面的经典论文作为入门
+https://github.com/mJackie/RecSys
+
 1.Human Decision Making and Recommender Systems
 2.ImageNet Classification with Deep Convolutional Neural Networks
 3.Is seeing believing How recommender systems inﬂuence users' opinions.
