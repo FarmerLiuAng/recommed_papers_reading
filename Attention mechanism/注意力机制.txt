@@ -3,14 +3,23 @@
 元路径，使用多头注意力机制进行聚集，得到基于元路径下的表征，再使用注意力机制聚集基于元路径下的表征，得到节点的最终嵌入表示。邻居节点选择有限，只有一部分节点
 包含进来。
 3.Attentional Factorization MachinesLearning the Weight of Feature Interactions via Attention Networks.pdf：因子分解机计算item i和其他item进行交
-互时的辅助向量均为vi，但是在交互的过程中item所表现出来的特征是不一样的，因此需要使用不同的vi。传统的解决方法时间复杂度大。为了解决这个问题，本文提出将注意力机制应用到
+互时的辅助向量均为vi，但是在交互的过程中item所表现出来的特征是不一样的，因此需要使用不同的vi。传统的解决方法时间复杂度大。为了解决这个问题，本文提出将注意
+力机制应用到
 FM中，建模特征之间的交互权重。（实际用起来不知道为什么还不如FM，只是理论上好像对劲。。。。）
 4.attentional_factorization_machine-master(1).zip：代码
 5.AKUPM Attention-Enhanced Knowledge-Aware UserPreference Model for Recommendation.pdf
 6.Session-Based Recommendation with Self-Attention.pdf
 7.Social Recommendation with Optimal Limited Attention.pdf
-8.Sequential Recommender System based on Hierarchical Attention Network.pdf：将序列分为短期偏好序列和长期偏好序列。使用注意力机制获取长期偏好序列，再使用注意力机制组合短期偏好序列和长期偏好序列，得到用户特征。（但是需要人为划分短期序列，和长期序列）
+8.Sequential Recommender System based on Hierarchical Attention Network.pdf：将序列分为短期偏好序列和长期偏好序列。使用注意力机制获取长期偏好序列，再
+使用注意力机制组合短期偏好序列和长期偏好序列，得到用户特征。（但是需要人为划分短期序列，和长期序列）
 9.self-attention-recommendation-master.zip
 10.Attention-Based Transactional Context Embedding for Next-Item Recommendation_AAAI_18.pdf
-11.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf：设计了一个随机游走策略，应该采用较高的概率到达优先度较高的邻居上（这个策略有点复杂，也有点意思，可以看看）。然后建立基于路径的上下文键入，首先对单个路径实例进行嵌入，再对元路径进行嵌入，再聚集元路径（注意力）。学到表征之后进行预测。
-12.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf：构建图的入度和出度矩阵，进行矩阵分解，然后输入到自注意力机制中进行学习。
+11.Leveraging meta-path based context for top-N recommendation with A neural co-attention model_KDD18.pdf：设计了一个随机游走策略，应该采用较高的概
+率到达优先度较高的邻居上（这个策略有点复杂，也有点意思，可以看看）。然后建立基于路径的上下文键入，首先对单个路径实例进行嵌入，再对元路径进行嵌入，再聚集元路径
+（注意力）。学到表征之后进行预测。
+12.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf：构建图的入度和出度矩阵，进行矩阵分解，然后输入到自注意
+力机制中进行学习。
+13.[AutoInt][CIKM 19] AutoInt_Automatic Feature Interaction Learning via Self-Attentive Neural Networks.pdf
+14.Self-Attentive Sequential Recommendation.pdf：就是嵌入里面引入时间因素。
+15.An Attentive Interaction Network for Context-aware Recommendations_CIKM18.pdf：将用户上下文和user嵌入输入到全连接神经，学习该上下文的用户的隐藏特征，
+在使用注意力聚集各个上下文的用户隐藏特征，最后得到用户的基于上下文的表征，同样的方法得到item基于上下文的表征，最后进行预测。
