@@ -12,4 +12,5 @@ Transformer.pdf：BERT4Rec模型中在item嵌入中引入了时序嵌入，使�
 7.Graph Contextualized Self-Attention Network for Session-based Recommendation_IJCAI_2019.pdf：构建图的入度和出度矩阵，进行矩阵
 分解，然后输入到自注意力机制中进行学习。
 8.Session-Based Recommendation with Self-Attention.pdf
-9.[DSIN][IJCAI 19][Alibaba] Deep Session Interest Network for Click-Through Rate Prediction.pdf
+9.[DSIN][IJCAI 19][Alibaba] Deep Session Interest Network for Click-Through Rate Prediction.pdf：将用户序列分成一个个的会话。对item嵌入引入时间嵌入，采用wide&deep的架构，使用注意力机制和LSTM学习序列的表征。
+10.[AutoInt][CIKM 19] AutoInt_Automatic Feature Interaction Learning via Self-Attentive Neural Networks.pdf
