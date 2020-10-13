@@ -1,1 +1,129 @@
-1
+This file contains the datasets I collect from the internet.If you want to use it ,please go to the correspondding website, and site that paper.
+有的数据集比较大放不上来了没办法，在此附上网址。
+
+
+知乎上某大佬总结的数据集下载地址：https://zhuanlan.zhihu.com/p/25138563
+
+转自https://blog.csdn.net/czzffff/article/details/44179087
+
+电影数据集总结：Netflix、MovieLens、LDOS-CoMoDa、AdomMovie
+1.Netflix
+描述：包含Netflix上48万多个随机选取的匿名用户，对于1万7千多部电影的1兆多个电影评分
+内容：
+包括training set，movie titles，probe set，qualifying set等文件。
+Trainning set包含4个特征值：电影ID、用户ID、评分（1~5）、日期；
+Movie titles包含3个特征值：电影ID、上映年份、电影标题；
+Probe set用于测试，包含2个特征值;电影ID、用户ID。
+引用的论文：
+[1]Matrix factorization techniques for recommender systems.2009
+[2]Modeling relationships at multiple scales to improve accuracy of large recommender systems.2007
+[3]Factorization meets the neighborhood a multifaceted collaborative filtering model
+
+
+2.MovieLens
+描述：按大小分成3部分
+100k：943个用户对于1682电影的100,000个评分；每个用户至少评级20部电影；包含用户的人口统计信息（年龄，性别，职业，邮编）
+时间:1997.9.19~1998.4.22
+包含u.data、u.info、u.item、u.genre、u.user、u.occupation几个文件
+U.data: 用户id 、项目 id 、 评分、 时间戳
+U.info: 用户数量、项目数量、评分数量
+U.item: 电影id、电影标题、上映日期、光碟上映日期、IMDb URL、流派
+U.genre: 流派
+U.user: 用户id、年龄、性别、职位、邮编
+1M： 6,040个用户对于3,900部电影的1,000,209个评分
+时间：2000年
+包含ratings.dat、users.dat、movies.dat
+Ratings.dat: 用户id、电影id、评分（1~5）、时间标签
+Users.dat： 性别、年龄、职位、邮编
+Movies.dat: 电影id、标题、流派
+100M：71567个用户对于10681部电影的10000054个评分
+包含 movies.dat, ratings.dat 和 tags.dat.
+Tags.dat:用户id、电影id、标签（tag）、时间戳
+
+
+3.LDOS-CoMoDa：http://www.lucami.org/en/research/ldos-comoda-dataset/?lang=en
+文件每一行结构如下：
+UserID,itemID,rating,age,sex,city,country,time,daytype,season,location,weather,social,endEmo,dominantEmo,mood,physical,desicion,interaction,director,
+movieCountry,movieLanguage,movieYear,genre1,genre2,genre3,actor1,actor2,actor3,budget
+
+
+4.AdomMovie
+
+5-25以下转自博客：https://blog.csdn.net/u011984148/article/details/99440250?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+可能与上面的有重复
+5. Douban：http://socialcomputing.asu.edu/datasets/Douban 这是一个匿名的豆瓣数据集，包含129,490个独立用户和58,541个独立电影条目。
+
+6. Epinions：http://www.trustlet.org/epinions.html Epinions是一个人们可以评论产品的网站。
+
+7.Flixster：http://socialcomputing.asu.edu/datasets/Flixster Flixster是一个社交电影网站，允许用户分享电影评级，发现新电影，并与其他有类似电影品味的人见面。
+
+8.CiaoDVD：https://www.librec.net/datasets.html CiaoDVD是从dvd.ciao.co.中抓取的2013年12月英国网站整个dvd类别的数据集。
+
+9. MACLab：http://mac.citi.sinica.edu.tw/LJ#.VRGYfOHlZ40 这个项目的目的是研究用户的情绪和音乐情绪。
+
+10.DEAPdataset：http://www.eecs.qmul.ac.uk/mmv/datasets/deap/index.html 使用脑电图、生理和视频信号进行情绪分析的数据集。
+
+11.MyPersonalityDataset：http://mypersonality.org/wiki/doku.php myPersonality是一个很受欢迎的Facebook应用程序，它允许用户进行真实的心理测试，并允许我们(在征得同意的情况下)记录他们的心理和Facebook资料。目前，我们的数据库包含超过600万个测试结果，以及超过400万个Facebook个人简介。
+
+12.Bibsonomy：http://www.kde.cs.uni-kassel.de/bibsonomy/dumps 社交书签系统中的标签推荐。
+
+13.Delicious：http://www.dai-labor.de/en/competence_centers/irml/datasets/ plista新闻推荐数据集，美味可口。
+
+14.Movielens：https://grouplens.org/datasets/movielens/ 稳定的基准数据集。2000万个评分和46.5万个标签应用程序被13.8万用户应用于2.7万部电影。包括标签基因组数据，1100个标签的1200万个相关性得分。
+
+15.Jester：http://eigentaste.berkeley.edu/dataset/ 来自小丑在线笑话推荐系统的匿名评级。
+
+16.BookCrossing：http://www2.informatik.uni-freiburg.de/~cziegler/BX/ Book-Crossing数据集。
+
+17.LastFM：https://grouplens.org/datasets/hetrec-2011/ 来自1892个用户的92,800张艺术家录音。
+
+18.Wikipedia：https://en.wikipedia.org/wiki/Wikipedia:Database_download#English-language_Wikipedia 维基百科向感兴趣的用户提供所有可用内容的免费拷贝。这些数据库可用于镜像、个人使用、非正式备份、脱机使用或数据库查询。
+
+19.OpenStreetMap：http://planet.openstreetmap.org/planet/full-history/ 这里找到的文件是OpenStreetMap.org数据库的完整副本，包括编辑历史。这些都是在Open Data Commons Open Database License 1.0许可下发布的。
+
+20.PythonGitCode：https://github.com/lab41/hermes Hermes是Lab41对推荐系统的一次尝试。通过分析多种推荐系统算法在不同数据集上的性能，探讨了如何为新的应用选择推荐系统。
+
+21：Gist：https://gist.github.com/entaroadun/1653794 为机器学习推荐和评级的公共数据集。
+
+22.Yelp：https://www.yelp.com/dataset Yelp数据集是用于个人、教育和学术目的的业务、评论和用户数据的子集。可以在JSON和SQL文件中使用，在你学习如何制作移动应用程序时，可以使用它来教学生关于数据库、学习NLP或示例生产数据。
+
+23。AmazonReviews：http://jmcauley.ucsd.edu/data/amazon/ 该数据集包含来自Amazon的产品评论和元数据，包括1996年5月至2014年7月期间的1.428亿个评论。这个数据集包括评论(评级、文本、帮助投票)、产品元数据(描述、类别信息、价格、品牌和图像特性)和链接(也查看/购买图表)。
+
+24.CiteULike：http://www.citeulike.org/faq/data.adp CiteULike数据库对不同领域的研究人员都有潜在的用处。物理学家和计算机科学家对分析数据结构表示了兴趣，并经常要求提供数据集。以前，这是在一个特别的基础上完成的，它依赖于我们记住更新数据文件。现在，有一个自动的过程，每天晚上运行，生成一个快照摘要，说明用哪些标签发布了哪些文章。
+
+25.Taobao：https://tianchi.aliyun.com/datalab/dataSet.htm?spm=5176.100073.888.13.62f83f62aOlMEI&id=1 该数据集包含了匿名用户在“双十一”前后6个月的购物记录，以及表明他们是否重复购买的标签信息。由于隐私问题，数据采集存在偏差，因此该数据集的统计结果会与天猫的实际情况相背离。
+
+下面是上述数据集的一些统计数据.
+Data Set	Users	Items	Ratings (Scale)	Density	Users	Links (Type)
+Ciao	7,375	99,746	278,483--[1, 5]	0.0379%	7,375	111,781--Trust
+Douban	129,490	58,541	16,830,839--[1, 5]	0.222%	129,490	1,692,952--Friendship
+Epinions (665K)	40,163	139,738	664,824--[1, 5]	0.0118%	49,289	487,183--Trust
+Epinions (510K)	71,002	104,356	508,960--[1, 5]	0.00687%	
+	Trust
+Epinions (Extended)	120,492	755,760	13,668,320--[1, 5]	0.015%	
+	Trust Distrust
+Flixster	147,612	48,794	8,196,077--[0.5, 5.0]	0.1138%	787,213	11,794,648--Friendship
+FilmTrust	1,508	2,071	35,497--[0.5, 4.0]	1.14%	1,642	1,853--Trust
+Jester	59,132	140	1,761,439--Explicit	21.28%	
+MovieLens 100K	943	1,682	100,000--[1, 5]	6.30%	
+MovieLens 1M	6,040	3,706	1,000,209--[1, 5]	4.47%	
+MovieLens 10M	71,567	10,681	10,000,054--[1, 5]	1.308%	
+
+
+26.Amazon Review Data (2018)：https://nijianmo.github.io/amazon/index.html
+This Dataset is an updated version of the Amazon review dataset released in 2014. As in the previous version, this dataset includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs). 
+
+27.一个找各种各样数据集的网址：http://www.dai-labor.de/en/competence_centers/irml/datasets/
+
+28.另一个找各种各样数据集的网址：https://www.librec.net/datasets.html#filmtrust
+
+29.KDD2015比赛数据集（课程推荐）：https://www.iteye.com/resource/cmelody-11607846
+
+30.MovieLens 数据集汇总：https://grouplens.org/datasets/movielens/
+
+31.gowalla数据集：http://snap.stanford.edu/data/loc-gowalla.html
+Gowalla is a location-based social networking website where users share their locations by checking-in. The friendship network is undirected and was collected using their public API, and consists of 196,591 nodes and 950,327 edges. We have collected a total of 6,442,890 check-ins of these users over the period of Feb. 2009 - Oct. 2010. 
+
+32.维基数据集：https://www.wikidata.org/wiki/Wikidata:Main_Page
+
+33.yelp数据集：https://www.yelp.com/dataset/challenge
