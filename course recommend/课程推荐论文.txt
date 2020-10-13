@@ -1,5 +1,15 @@
- 1.Guess You Like_ Course Recommendation in MOOCs_WI17.pdf：主要使用了用户、日志、课程先导关系三类信息。首先进行用户相似度计算，然后对用户进行聚类，使用类平均代替该用户的特征。给出了建模先导关系的思路。
-2.Hierarchical Reinforcement Learning for Course Recommendation in MOOCs_AAAI19.pdf：核心思想就是用户的历史课程序列中由于部分对预测有作用，有一部分没作用，因此需要进行剔除。这篇文章设计了一个层级强化算法，第一层判断该序列是否要进行删除，第二层判断删除删除哪些，然后用更新后的序列进行预测，还设计了奖励机制。但是忽略了时间因素。
-3.Multi-modal matrix factorization with side information for recommending massive open online courses_ESA19.pdf：引入了新的信息skill，实际上就是个多矩阵分解算法。
+ 1.Guess You Like_ Course Recommendation in MOOCs_WI17.pdf：主要使用了用户、日志、课程先导关系三类信息。首先进行用户相似度计算，
+ 然后对用户进行聚类，使用类平均代替该用户的特征。给出了建模先导关系的思路。
+2.Hierarchical Reinforcement Learning for Course Recommendation in MOOCs_AAAI19.pdf：核心思想就是用户的历史课程序列中由于部
+分对预测有作用，有一部分没作用，因此需要进行剔除。这篇文章设计了一个层级强化算法，第一层判断该序列是否要进行删除，第二层判断删除删除
+哪些，然后用更新后的序列进行预测，还设计了奖励机制。但是忽略了时间因素。
+3.Multi-modal matrix factorization with side information for recommending massive open online courses_ESA19.pdf：引入了新
+的信息skill，实际上就是个多矩阵分解算法。
 4.Understanding User Interests Acquisition in Personalized Online Course Recommendation_APWeb18.pdf
 5.Modeling and Predicting Learning Behavior in MOOCs_WSDM16.pdf：里面的统计分析可以参考，模型比较简单。
+6.AAAI19-Feng-dropout-moocs.pdf：这篇文章引入了特征增强，实际上也是基于注意力机制的课程推荐。使用了user and course-context 
+statistics。
+7.ACL17-Pan-et-al-Prerequisite-Relationship-MOOCs.pdf：预测先导关系，会构建一个语料库，学习每个实体的嵌入。提出了7个新的特征来捕
+获概念对是否有先导关系。这7个特征可以分为1个 semantic feature，3个 contextual features，3个structural features。
+8.ACL19-Yu-et-al-Concept_Expansion_in_MOOCs.pdf
+9.ACL20_Yu-et-al-MOOCCube.pdf：清华的一个数据集说明
