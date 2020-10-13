@@ -1,1 +1,40 @@
 This file contains the datasets I collect from the internet.If you want to use it ,please go to the correspondding website, and site that paper.
+有的数据集比较大放不上来了没办法，在此附上网址。
+
+
+1.MOOC_CUBE：http://moocdata.cn/data/MOOCCube
+MOOCCube is an open data repository for natural language processing, knowledge graphs, data mining
+and other researchers who are interested in massive open online courses(MOOCs). It contains 706 MOOC courses, 38,181 videos, 114,563 concepts, 
+and 199,199 real MOOC users. This data source also contains a large-scale Concept Graph and related academic papers as additional resources for 
+further utilization.
+The information of our concept graph is extracted from Baidubaike, Wikipeida and Termonline. The data of courses and student activities are from
+the real environment of XuetangX, one of the largest MOOC website in China. The academic resourses are provided by Aminer, an academic project 
+which provides comprehensive search and mining services for researcher social networks. 
+
+2.Course Concept Extraction:http://moocdata.cn/data/concept-extraction
+This is the whole dataset of paper "Course Concept Extraction in MOOCs 
+via Embedding-Based Graph Propagation" in IJCNLP 2017.
+CSEN,CSZH,EcoEN,EcoZH are evaluation datasets mentioned in the paper. All data file are in standard json format. Each dataset contains two file:
+Captions and Candidates.
+
+3.Course Prerequisite Relation：-http://moocdata.cn/data/prerequisite-relation
+ This is the dataset of paper "Prerequisite Relation Learning for Concepts in MOOCs" in ACL 2017.
+DSA and ML are the dataset of different data of course category "Data structure and Algorithm" and "Machine Learning". Each dataset contains three kinds of file: Captions, Core_concepts and Labeled file.
+
+4.Understanding Dropouts in MOOCs论文源码，包含数据集，可用于drop out预测：https://github.com/wzfhaha/dropout_prediction
+This is the code for dropout prediction in our AAAI'19 paper:
+Wenzheng Feng, Jie Tang, Tracy Xiao Liu, Shuhuai Zhang, Jian Guan. Understanding Dropouts in MOOCs. In Proceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI'19).
+
+5.可用于预测行为的数据集http://lfs.aminer.cn/misc/moocdata/data/data-wsdm16-mooc.zip
+
+6.Open University Learning Analytics dataset:https://analyse.kmi.open.ac.uk/open_dataset
+This page introduces the anonymised Open University Learning Analytics Dataset (OULAD). It contains data about courses, students and their interactions with Virtual Learning Environment (VLE) for seven selected courses (called modules). Presentations of courses start in February and October - they are marked by “B” and “J” respectively. The dataset consists of tables connected using unique identifiers. All tables are stored in the csv format.
+
+7.哈佛的教育推荐数据集，貌似地址失效了：https://rserve.dataverse.harvard.edu/cgi-bin/zipdownload?8dd-e501f6e2c592
+http://lfs.aminer.cn/misc/moocdata/data/prediction_data.tar.gz
+http://lfs.aminer.cn/misc/moocdata/data/data-wsdm16-mooc.zip
+https://rserve.dataverse.harvard.edu/cgi-bin/zipdownload?750-cfcf25389de3
+
+8.KDD2019数据集：https://codeload.github.com/googlebaba/KDD2019-MEIRec/zip/master
+
+
